@@ -1,20 +1,150 @@
-# Et puis, mais bien sûr ...
-Phasellus quis eros in dolor consectetur bibendum ac et tortor. Aenean sagittis felis vitae iaculis sollicitudin. Fusce porta magna sit amet fermentum pretium. Quisque ultricies urna nec sollicitudin varius. Vivamus vel ipsum non metus porta pretium. Ut mi est, semper suscipit mauris eget, iaculis finibus dolor. Sed sagittis id est nec finibus. Curabitur laoreet enim nec lorem semper cursus sed quis orci. Donec eu dapibus lectus. Donec convallis condimentum ipsum, quis eleifend tortor gravida non. Donec nec orci magna. Cras viverra nibh sit amet consectetur interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus neque eu iaculis aliquam. Ut tincidunt, nunc in varius fermentum, odio velit volutpat eros, sit amet mollis turpis ipsum nec felis. Praesent tempor lacinia sem eu imperdiet.
+# texture
 
-# Alors sinon :
-Integer nisi lectus, egestas a auctor nec, ultricies vitae mauris. Fusce quis nulla eget mi fermentum commodo. Cras consequat lectus nisi. Quisque interdum nec mauris at porttitor. Proin et eros id nibh ultricies congue sit amet sit amet tellus. Donec vitae sapien nec risus ultrices eleifend. Duis finibus turpis odio, a porta nisi ultrices eu. Quisque auctor viverra risus sit amet viverra. Pellentesque volutpat nec leo et ornare.
+A configurable jekyll theme for simply beautiful blogs.
 
-# Et pour finir.
-Maecenas fringilla nulla ut rhoncus porta. Integer ac ante sed lacus facilisis sodales sed vitae libero. Vestibulum luctus vehicula purus eget cursus. Sed odio erat, feugiat nec turpis ut, congue aliquet arcu. Morbi ex sapien, ullamcorper eleifend sapien sodales, maximus tempor nibh. Duis ullamcorper purus eu lorem vestibulum, non porta diam suscipit. Integer vitae diam tristique, ullamcorper orci vitae, consectetur orci. Curabitur varius dolor eleifend, iaculis lorem at, posuere odio. Suspendisse metus sem, dignissim in enim ut, tristique eleifend quam. Vestibulum mattis, elit quis bibendum scelerisque, augue ipsum interdum nunc, ut consequat diam quam sit amet ligula. Aenean libero tellus, tincidunt at est vel, dapibus lobortis augue. Etiam vitae nisl sed tellus luctus aliquam quis vitae ex. Proin viverra aliquam urna, eget porta odio venenatis vel. Nulla posuere nisi quis justo luctus tincidunt. Integer sed ipsum quis tortor mattis hendrerit.
+**Demo**: [samarsault.com/texture](https://samarsault.com/texture)
+
+![texture theme preview](/screen1.png)
 
 
----
+## Installation on Github Pages
 
-Merci de votre ecoute
+Add this line to your site's `_config.yml`:
+```yaml
+remote_theme: samarsault/texture
+```
 
----
+**NOTE: If you are forking this repo, remove `base_url: /texture` in the `_config.yml` which is required to load the required website assets**
+## Installation
 
-Voici le resulat : ![Karmine](img/kc.jpg)
+Add this line to your Jekyll site's `Gemfile`:
 
----
-Voici le resulat : ![Karmine](img/kc1.jpg)
+```ruby
+gem "texture"
+```
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+theme: texture
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install texture
+
+## Usage
+
+The "texture" key in _config.yml is used to customize the theme data.
+```yaml
+texture:
+  title: Adam Denisov
+  tagline: Developer. Designer
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    twitter: thelehhman
+    github:  thelehhman
+    linkedIn: in/thelehhman # format: locale/username
+```
+
+**Styling**
+
+Multiple header styles are supported using the "style" property under texture in `_config.yml`.
+
+```yaml
+texture:
+  style: [yellow|red|black|blue|green|purple]
+```
+
+For example, the blue style looks like this:
+
+![texture theme blue](/screen2.png)
+
+
+**Texture Picker**
+
+You can toggle the texture picker to show/experiment various textures on your site using the showPicker variable. Remember to make it `false` for production.
+
+```yaml
+texture:
+  showPicker: [false|true] # show the texture selector(development purposes)
+```
+
+**Comments (Disqus)**
+
+Comments on posts can be enabled by specifying your disqus_shortname under texture in `_config.yml`. For example,
+```yaml
+texture:
+  disqus_shortname: games
+```
+
+**Google Analytics**
+
+It can be enabled by specifying your analytics id under texture in `_config.yml`
+```yaml
+texture:
+  analytics_id: '< YOUR ID >'
+```
+
+**Excerpts**
+
+Excerpts can be enabled by adding the following line to your `_config.yml`
+```yaml
+show_excerpts: true
+```
+
+**Toggle Navbar**
+
+```yaml
+texture:
+  showNav: true
+```
+
+**Navigation**
+
+After setting `showNav` to true navigation can be built by adding the following to your `_config.yml`
+
+```yaml
+texture:
+  navigation:
+    - title: My Work
+      url: "/my-work"
+    - title: Resume
+      url: "/resume"
+```
+
+**Layouts**
+
+- Home
+- Page
+- Post
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/samarsault/texture. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in `texture.gemspec` accordingly.
+
+## Donation
+If this project help you reduce time to develop, you can give me a cup of coffee :) 
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/thelehhman)
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## More Themes
+[plainwhite](https://github.com/samarsault/plainwhite-jekyll)
