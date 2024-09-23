@@ -31,3 +31,40 @@ Dans le cadre de notre formation, nous avons entrepris un projet ambitieux et st
 
 
 ***Manuel Utilisateur :*** Enfin, nous rédigerons un manuel utilisateur détaillé, fournissant aux joueurs toutes les informations nécessaires pour profiter pleinement du jeu. Ce manuel servira de guide pratique, offrant des instructions claires et concises pour une prise en main rapide.
+
+<!-- Carrousel d'images -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="{{ '/assets/img/jeu2.png' | relative_url }}" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="{{ '/assets/img/jeu2_2.png' | relative_url }}" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="{{ '/assets/img/jeu2_3.png' | relative_url }}" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="{{ '/assets/img/jeu2_4.png' | relative_url }}" alt="Fourth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="{{ '/assets/img/jeu2_5.png' | relative_url }}" alt="Fifth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="{{ '/assets/img/jeu2_6.png' | relative_url }}" alt="Six slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Précédent</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Prochain</span>
+  </a>
+</div>
