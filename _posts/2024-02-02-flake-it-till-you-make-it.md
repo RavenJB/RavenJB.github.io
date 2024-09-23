@@ -88,3 +88,9 @@ Si vous faites un jeu, il vous sera marqué les règles et les touches du jeu po
 
 ### Étape 6: 
 Pour le système de combat, appuyez sur espace pour tirer et deplacer vous avec les flèches du clavier
+
+### Étape 7: 
+Vous pouvez acheter des objets dans la boutique avec votre or en appuyant sur la touche ''p''
+
+### Étape 8: 
+Le jeu se termine si tout les joueurs sont morts ou si tout les combats de boss sont mort
