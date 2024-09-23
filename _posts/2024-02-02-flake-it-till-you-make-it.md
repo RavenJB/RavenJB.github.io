@@ -1,18 +1,33 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: Projet Jeu vidéo IA + Réseau
+subtitle: Par groupe de 4 dans le cadre des études
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
-tags: [Web, Dev]
+tags: [IA, Dev]
 author: Jules Baron
 ---
 
-Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?
+Dans le cadre de notre formation, nous avons entrepris un projet ambitieux et stimulant : la révision et l’amélioration d’un jeu créé lors SAÉ du semestre 3. Notre équipe, composée de quatre étudiants motivés, s’engage à perfectionner le jeu initial en y intégrant des fonctionnalités innovantes et en assurant sa jouabilité optimale.
 
-The truth is that no one else can definitively know the path we are here to walk. It’s tempting to listen—many of us long for the omnipotent other—but unless they are genuine psychic intuitives, they can’t know. All others can know is their own truth, and if they’ve actually done the work to excavate it, they will have the good sense to know that they cannot genuinely know anyone else’s. Only soul knows the path it is here to walk. Since you are the only one living in your temple, only you can know its scriptures and interpretive structure.
 
-At the heart of the struggle are two very different ideas of success—survival-driven and soul-driven. For survivalists, success is security, pragmatism, power over others. Success is the absence of material suffering, the nourishing of the soul be damned. It is an odd and ironic thing that most of the material power in our world often resides in the hands of younger souls. Still working in the egoic and material realms, they love the sensations of power and focus most of their energy on accumulation. Older souls tend not to be as materially driven. They have already played the worldly game in previous lives and they search for more subtle shades of meaning in this one—authentication rather than accumulation. They are often ignored by the culture at large, although they really are the truest warriors.
+***Reprise et Débogage :*** Notre première tâche consiste à revisiter le code existant, à identifier et corriger les bugs pour garantir une expérience de jeu fluide et sans accroc. Nous nous engageons à assurer la stabilité et la fiabilité du programme.
 
-A soulful notion of success rests on the actualization of our innate image. Success is simply the completion of a soul step, however unsightly it may be. We have finished what we started when the lesson is learned. What a fear-based culture calls a wonderful opportunity may be fruitless and misguided for the soul. Staying in a passionless relationship may satisfy our need for comfort, but it may stifle the soul. Becoming a famous lawyer is only worthwhile if the soul demands it. It is an essential failure if you are called to be a monastic this time around. If you need to explore and abandon ten careers in order to stretch your soul toward its innate image, then so be it. Flake it till you make it.
+
+***Fonctionnalités Additionnelles :*** En plus de la remise en état du jeu, nous avons pour objectif d’enrichir l’expérience des joueurs en ajoutant des fonctionnalités inédites. Ces ajouts peuvent varier selon le jeu et les besoins des utilisateurs, mais nous veillerons à ce qu’ils apportent une valeur ajoutée significative.
+
+
+***Intégration d’une Intelligence Artificielle (IA) :*** Pour offrir une expérience solo enrichie, nous développerons une IA capable de simuler le comportement humain. Cette IA sera conçue avec soin, offrant éventuellement plusieurs niveaux de difficulté pour convenir à différents types de joueurs.
+
+
+***Jouabilité en Réseau :*** L’une de nos priorités est de rendre le jeu multijoueur, permettant ainsi aux joueurs de se connecter et de s’affronter en ligne. Nous mettrons en place un protocole d’échange de données client/serveur robuste, assurant une communication fluide entre les différentes instances du jeu.
+
+
+***Gestion des Données Statistiques :*** Pour enrichir l’expérience utilisateur, nous mettrons en place un système de collecte et de mémorisation des données statistiques de jeu. Ces informations seront accessibles via un menu dédié, permettant aux joueurs de suivre leur progression et d’analyser leurs performances.
+
+
+***Tests et Corrections :*** Tout au long du processus de développement, nous mènerons des tests rigoureux pour identifier et corriger les éventuels problèmes. Notre objectif est de livrer un produit final de qualité, répondant aux attentes de nos utilisateurs.
+
+
+***Manuel Utilisateur :*** Enfin, nous rédigerons un manuel utilisateur détaillé, fournissant aux joueurs toutes les informations nécessaires pour profiter pleinement du jeu. Ce manuel servira de guide pratique, offrant des instructions claires et concises pour une prise en main rapide.

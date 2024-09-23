@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sample blog post to learn markdown tips
-subtitle: There's lots to learn!
+title: SAE Jeu
+subtitle: Projet seul dans le cadre de l'iut
 cover-img: /assets/img/path.jpg
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
@@ -11,86 +11,17 @@ mathjax: true
 author: Jules Baron
 ---
 
-{: .box-success}
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about using markdown in Beautiful Jekyll.
+Dans le cadre de notre programme de formation, nous nous sommes lancés dans un projet captivant : la conception et la réalisation d’un jeu de rôle sous la forme d’un jeu de plateau. Ce défi nous permettra de mettre en pratique divers apprentissages, tout en laissant libre cours à notre créativité.
 
-**Here is some bold text**
+***Respect des Besoins du Client :*** Notre priorité sera de comprendre et de prendre en compte les besoins spécifiques du client. Nous collaborerons étroitement avec celui-ci pour nous assurer que le jeu développé répond à ses attentes et à ses exigences.
 
-## Here is a secondary heading
+***Application des Principes Algorithmiques :*** Nous appliquerons des principes algorithmiques solides pour concevoir les mécaniques de jeu et les interactions entre les joueurs. Nous veillerons à ce que les règles du jeu soient claires, équilibrées et offrent une expérience immersive.
 
-[This is a link to a different site](https://deanattali.com/) and [this is a link to a section inside this page](#local-urls).
+***Veille à la Qualité du Code :*** Tout au long du processus de développement, nous accorderons une attention particulière à la qualité du code. Nous suivrons des normes de programmation rigoureuses, nous assurant que le code soit lisible, modulaire et facilement maintenable.
 
-Here's a table:
+***Choix des Ressources Techniques Appropriées :*** Pour la réalisation de notre jeu de rôle, nous choisirons les ressources techniques les plus adaptées à nos besoins. Que ce soit pour la conception du plateau de jeu, la création des cartes ou l’implémentation des règles, nous opterons pour des outils et des technologies efficaces et appropriés.
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+***Mise en Œuvre Individuelle :*** Cette SAÉ sera réalisée de manière individuelle, ce qui nous permettra de mettre en pratique nos compétences personnelles tout en relevant ce défi stimulant. Chaque étudiant sera responsable de toutes les étapes du processus de développement, de la conception initiale à la réalisation finale.
 
-You can use [MathJax](https://www.mathjax.org/) to write LaTeX expressions. For example:
-When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-
-How about a yummy crepe?
-
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
-
-It can also be centered!
-
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg){: .mx-auto.d-block :}
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
-
-## Local URLs in project sites {#local-urls}
-
-When hosting a *project site* on GitHub Pages (for example, `https://USERNAME.github.io/MyProject`), URLs that begin with `/` and refer to local files may not work correctly due to how the root URL (`/`) is interpreted by GitHub Pages. You can read more about it [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). To demonstrate the issue, the following local image will be broken **if your site is a project site:**
-
-![Crepe](/assets/img/crepe.jpg)
-
-If the above image is broken, then you'll need to follow the instructions [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). Here is proof that it can be fixed:
 
 ![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})
