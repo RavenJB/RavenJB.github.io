@@ -68,3 +68,23 @@ Dans le cadre de notre formation, nous avons entrepris un projet ambitieux et st
     <span class="sr-only">Prochain</span>
   </a>
 </div>
+
+## Notice utilisateur :
+
+### Étape 1:
+Lancer le fichier '''main.py'''  
+
+### Étape 2:
+Choissisez le nombre de joueur (allant de 1 à 4)
+
+### Étape 3:
+Choissisez le nom de votre personnage ainsi que son skin
+
+### Étape 4:
+Déplacer vous sur la map avec les flèches du clavier (haut/bas/gauche/droite)
+
+### Étape 5:
+Si vous faites un jeu, il vous sera marqué les règles et les touches du jeu pour savoir comment y jouer
+
+### Étape 6: 
+Pour le système de combat, appuyez sur espace pour tirer et deplacer vous avec les flèches du clavier
