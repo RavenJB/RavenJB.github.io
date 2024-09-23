@@ -23,5 +23,30 @@ Dans le cadre de notre programme de formation, nous nous sommes lancés dans un 
 
 ***Mise en Œuvre Individuelle :*** Cette SAÉ sera réalisée de manière individuelle, ce qui nous permettra de mettre en pratique nos compétences personnelles tout en relevant ce défi stimulant. Chaque étudiant sera responsable de toutes les étapes du processus de développement, de la conception initiale à la réalisation finale.
 
-
-![Image de jeu]({{ '/assets/img/crepe.jpg' | relative_url }})
+<!-- Carrousel d'images -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+	<div class="carousel-item active">
+	  <img class="d-block w-100" src="{{ '/assets/img/jeu1.png' | relative_url }}" alt="First slide">
+	</div>
+	<div class="carousel-item">
+	  <img class="d-block w-100" src="{{ '/assets/img/jeu1_2.png' | relative_url }}" alt="Second slide">
+	</div>
+	<div class="carousel-item">
+	  <img class="d-block w-100" src="{{ '/assets/img/jeu1_3.png' | relative_url }}" alt="Third slide">
+	</div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	<span class="sr-only">Précédent</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	<span class="sr-only">Prochain</span>
+  </a>
+</div>
