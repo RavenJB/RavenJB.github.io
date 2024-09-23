@@ -2,7 +2,7 @@
 layout: post
 title: SAE Jeu
 subtitle: Projet seul dans le cadre de l'iut
-cover-img: /assets/img/path.jpg
+cover-img: /assets/img/jeu1.png
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [Dev]
@@ -24,4 +24,4 @@ Dans le cadre de notre programme de formation, nous nous sommes lancés dans un 
 ***Mise en Œuvre Individuelle :*** Cette SAÉ sera réalisée de manière individuelle, ce qui nous permettra de mettre en pratique nos compétences personnelles tout en relevant ce défi stimulant. Chaque étudiant sera responsable de toutes les étapes du processus de développement, de la conception initiale à la réalisation finale.
 
 
-![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})
+![Image de jeu]({{ '/assets/img/crepe.jpg' | relative_url }})
