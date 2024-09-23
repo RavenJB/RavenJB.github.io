@@ -3,11 +3,8 @@ layout: post
 title: SAE Jeu
 subtitle: Projet seul dans le cadre de l'iut
 cover-img: /assets/img/jeu1.png
-gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [Dev]
-comments: true
-mathjax: true
 author: Jules Baron
 ---
 
