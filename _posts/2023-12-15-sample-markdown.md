@@ -3,6 +3,8 @@ layout: post
 title: SAE Jeu
 subtitle: Projet seul dans le cadre de l'iut
 cover-img: /assets/img/jeu1.png
+thumbnail-img: /assets/img/jeu1.png
+share-img: /assets/img/jeu1.png
 gh-badge: [star, fork, follow]
 tags: [Dev]
 author: Jules Baron

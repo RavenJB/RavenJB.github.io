@@ -2,9 +2,9 @@
 layout: post
 title: Projet Jeu vidéo IA + Réseau
 subtitle: Par groupe de 4 dans le cadre des études
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+cover-img: /assets/img/jeu2.png
+thumbnail-img: /assets/img/jeu2.png
+share-img: /assets/img/jeu2.png
 tags: [IA, Dev]
 author: Jules Baron
 ---
