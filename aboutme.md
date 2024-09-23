@@ -1,16 +1,41 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: A propos de moi
+subtitle: Etudiant en BUT 3 informatique, parcours A
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Je m'appelle Jules Baron. 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### Voici mes centres d'intérêt:
 
-What else do you need?
+- Tout type de sport **(cohésion de groupe)**
+- Musique
+- Voyage **(Découverte / curiosité)**
+- Cinéma **(Culture)**
+- Informatique
 
-### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### Mes compétences:
+
+- Travail en équipe
+- Autonomie
+- Créativité
+- Gestion du temps
+- Curiosité
+
+
+### Projets informatique
+
+- Implémentation d’une Intelligence Artificielle et la mise en réseau d’un jeu vidéo (Février 2024)
+- Création d’un site web dynamique reliée à une base de donnée et héberger sur un internet (Décembre 2023)
+- Création d’un jeu vidéo complet en python (Octobre 2023)
+
+### Langages informatiques
+
+- CSS/HTML
+- JS
+- Python
+- POSTGRE SQL
+
+
+Si vous desirez plus d'information, regardez [mon portfolio](https://julesbaron26.wordpress.com/) et ca répondra à **toutes** vos questions.
